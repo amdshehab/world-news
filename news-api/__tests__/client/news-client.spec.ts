@@ -1,4 +1,4 @@
-import NewsClient from "../../src/client/news-client";
+import NewsClient from "../../src/clients/news-client";
 
 describe("News Client", () => {
   let newsClient;

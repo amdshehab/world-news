@@ -4,17 +4,25 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "build": "tsc && node dist/index.js",
+    "start": "nodemon -e ts  --exec \"yarn build\"",
     "test": "jest"
   },
   "dependencies": {
+    "@types/graphql": "^14.2.3",
+    "graphql": "^14.4.2",
+    "graphql-yoga": "^1.18.1",
+    "reflect-metadata": "^0.1.13",
     "request": "^2.88.0",
-    "request-promise": "^4.2.4"
+    "request-promise": "^4.2.4",
+    "type-graphql": "^0.17.4"
   },
   "devDependencies": {
     "@types/jest": "^24.0.16",
     "@types/request": "^2.48.2",
     "@types/request-promise": "^4.1.44",
     "jest": "^24.8.0",
+    "nodemon": "^1.19.1",
     "ts-jest": "^24.0.2",
     "typescript": "^3.5.3"
   }

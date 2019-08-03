@@ -9,7 +9,7 @@ type News = {
   link: string;
 };
 
-interface NewsClient {
+export interface NewsClient {
   getNewsByCountry: (country: string) => Promise<News[]>;
 }
 
