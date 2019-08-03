@@ -21,6 +21,7 @@ News-API
 
 ```
 yarn
+yarn start (GraphQL playground will be availble on http://localhost:4000)
 ```
 
 ## Running the tests
