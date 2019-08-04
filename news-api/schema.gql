@@ -3,6 +3,13 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
+type Location {
+  name: String!
+  code: String!
+  native: String!
+  emoji: String!
+}
+
 type NewsPiece {
   title: String!
   snippet: String!
@@ -11,4 +18,5 @@ type NewsPiece {
 
 type Query {
   getNewsByCountry(country: String!): [NewsPiece!]
+  getCountriesByContinent(continentName: String!): [Location!]
 }
