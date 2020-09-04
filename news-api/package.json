@@ -15,7 +15,7 @@
     "reflect-metadata": "^0.1.13",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
-    "type-graphql": "^0.17.4"
+    "type-graphql": "^0.17.6"
   },
   "devDependencies": {
     "@types/jest": "^24.0.16",
